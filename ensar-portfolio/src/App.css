@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Righteous&family=Rubik+Glitch&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: fantasy;
+
+}
+
+/*========== NAVBAR ===========*/
+
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1480px;
+  padding: 1rem;
+  background-color: transparent;
+  width:100%;
+  transition: all 0.8s;
+  z-index: 1;
+  
+}
+
+.navbar-container ul{
+  list-style: none;
+  
+}
+
+.navbar-container li{
+  margin-right: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+.navbar-list li:hover{
+  color: #00d9ff;
+  transition: all 0.5s ease;
+
+}
+
+.navbar-container h1{
+  font-family: 'Yellowtail';
+  color: #00d9ff;
+}
+
+.navbar-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+@media (max-width: 1070px) {
+
+  .navbar-container{
+    background-color: #00d9ff;
+  }
+
+  .navbar-container h1{
+    color: white;
+  }
+
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar-list {
+    display: none;
+    text-align: center;
+  }
+
+  .show {
+    top: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0,0.95);
+    
+  }
+
+  .show li{
+   padding: 1rem;
+   font-size: 18px;
+   border-bottom: 1px solid gray;
+   width: 100%;
+   
+  }
+
+  .show li:hover{
+    background-color: #00d9ff;
+    color: #fff;
+  }
+}
+
+/*========== HERO ================*/
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+  flex-direction: column;
+  
+}
+
+.hero-container h1{
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.hero-container span{
+  font-family: 'Righteous';
+  background-image: linear-gradient(to right, #00d9ff , #ff07da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-container p{
+  font-size: 25px;
+}
+
+.contact-links {
+  display: flex;
+}
+
+.contact-links a{
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 35px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+}
+
+.contact-links a:hover{
+  transition: all 0.4s;
+  color: #00d9ff;
+}
