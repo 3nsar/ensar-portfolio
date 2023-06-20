@@ -1,13 +1,15 @@
 import React from 'react';
+
 import lamp from '../assets/lamp.png';
 import moon from '../assets/moon.png';
 
 const Projects = () => {
   return (
     <div className='projects-container'>
-
+   
       <div className="projects-card-container">
         <h1>LATEST WORK</h1>
+
         <div className="projects-card">
           <img src={lamp} alt="pic" />
           <h2>QUIZ APP</h2>

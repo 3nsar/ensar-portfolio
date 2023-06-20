@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
+import boy from '../assets/boy.svg';
 
 
 const About = () => {
@@ -22,6 +23,7 @@ const About = () => {
               Constantly seeking new challenges and opportunities, I am <span>committed </span>to improving my skills and creating applications that 
               prioritize user satisfaction. Let's bring ideas to life through code and make a positive impact in the digital world.</p>
         </motion.div>
+        <img src={boy} alt="pic" className='boy-img'/>
     </div>
   )
 }

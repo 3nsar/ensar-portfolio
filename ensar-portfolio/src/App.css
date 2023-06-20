@@ -175,14 +175,43 @@ body{
 
 /*======== ABOUT ===========*/
 
+
 .about-container{
   height: 100vh;
+  margin-right: 40px;
+  margin-left: 40px;
+  display: flex;
 }
 
-span{
+.about-content h1{
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.about-content{
+  width: 100%; 
+ max-width: 600px;
+ display: flex;
+ flex-direction: column;
+
+}
+
+.about-content p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+  
+}
+
+.about-content span{
   color: #ff07da;
 }
 
+.boy-img{
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 125px;
+}
 
 
 
@@ -192,16 +221,10 @@ span{
 
 .projects-container{
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
 }
 
 .projects-card-container h1{
-  text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 50px;
 
 }
@@ -213,7 +236,6 @@ span{
   flex-direction: column;
   margin-top: 40px;
 }
-
 
 .projects-card{
   background-color: #1b1a1a;
@@ -301,3 +323,89 @@ box-shadow: 4px 8px 12px 2px #ff07da;
     font-size: 35px;
   }
 }
+
+/*========== SKILLS =========*/
+
+
+.skills-container{
+  height: 50vh;
+  background-image: linear-gradient(to right, #00d9ff , #ff07da);
+
+}
+
+.skills-content h1{
+  margin-top: 25px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.skills-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.skills-content-cards img{
+  height: 72px;
+  border: 2px solid #00d9ff;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: #212121;
+  padding: 12px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+
+@media (max-width:866px){
+
+  .skills-content-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .skills-content-cards img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skills-content-cards img{
+    height: 60px;
+    border: 2px solid #00d9ff;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #212121;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-bottom: 20px;
+  }
+
+  .skills-container{
+    height: 100%;
+    
+  }
+  
+  } 
+
+
+
+  @media (max-width:537px){
+
+    .skills-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .skills-container h1{
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+    .skills-content-cards img{
+      height: 55px;
+    }
+
+  }
