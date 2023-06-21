@@ -21,7 +21,7 @@ const About = () => {
               I thrive on exploring new technologies and expanding my skill set. 
               From designing and implementing innovative solutions, I am driven to create <span>meaningful and impactful software</span>. 
               Constantly seeking new challenges and opportunities, I am <span>committed </span>to improving my skills and creating applications that 
-              prioritize user satisfaction. Let's bring ideas to life through code and make a positive impact in the digital world.</p>
+              prioritize user satisfaction. Let's bring ideas to life through code and make a <span>positive impact</span> in the digital world.</p>
         </motion.div>
         <img src={boy} alt="pic" className='boy-img'/>
     </div>

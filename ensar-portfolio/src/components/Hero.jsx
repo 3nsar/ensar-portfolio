@@ -5,6 +5,7 @@ import {AiOutlineMail} from "react-icons/ai"
 const Hero = () => {
   return (
     <div className='hero-container'> 
+    
       <h1>Hi, I'm <span>Ensar</span></h1>
       <p>Software Developer and CS Student</p>
 

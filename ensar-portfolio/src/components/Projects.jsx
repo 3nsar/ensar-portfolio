@@ -1,15 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import lamp from '../assets/lamp.png';
-import moon from '../assets/moon.png';
+import lamp from '../Assets/lamp.png';
+import moon from '../Assets/moon.png';
 
 const Projects = () => {
   return (
     <div className='projects-container'>
-   
-      <div className="projects-card-container">
-        <h1>LATEST WORK</h1>
+      <h1>LATEST WORK</h1>
 
+      <div className="projects-card-container">
         <div className="projects-card">
           <img src={lamp} alt="pic" />
           <h2>QUIZ APP</h2>
