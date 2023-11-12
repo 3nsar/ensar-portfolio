@@ -11,7 +11,7 @@
 body{
   background-color: #141414;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 
 }
 
@@ -348,7 +348,7 @@ box-shadow: 4px 8px 12px 2px #ff07da;
 .projects-card h2{
   font-size: 25px;
   margin-bottom: 10px;
-  border-bottom: 2px solid #00d9ff;;
+  border-bottom: 2px solid #00d9ff;
 }
 
 .projects-card img{
